@@ -58,7 +58,7 @@ function install_php() {
     sudo rm /var/cache/apt/archives/lock
     sudo rm /var/lib/dpkg/lock
     sudo apt-get udpate
-    sudo apt-get install php php-fpm php-mysql php-xml php-gd -y
+    sudo apt-get install php php-fpm php-mysql php-xml php-gd php-curl -y
     php_version=`php -v`
     echo ${PHP}当前版本${php_version}
 }
