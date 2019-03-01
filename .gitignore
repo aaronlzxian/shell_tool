@@ -1,6 +1,6 @@
 .idea/
 .DS_Store
 upload_local_mvn.sh
-unintall_mysql_on_mac.sh
+uninstall_mysql_on_mac.sh
 fix_some_error.sh
 temp.sh
