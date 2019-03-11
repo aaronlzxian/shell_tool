@@ -4,3 +4,4 @@ upload_local_mvn.sh
 uninstall_mysql_on_mac.sh
 fix_some_error.sh
 temp.sh
+docker/
