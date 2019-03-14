@@ -24,4 +24,16 @@ echo "======== end remove network ========"
 #if image is referenced in multiple repositories error 使用 docker rmi $tag
 #docker rmi 0341d5bf6654
 
+echo "======== start clean docker containers logs ========"
+
+logs=$(find /var/lib/docker/containers/ -name *-json.log*)
+
+for log in $logs
+        do
+                echo "clean logs : $log"
+                cat /dev/null > $log
+        done
+
+echo "======== end clean docker containers logs ========"
+
 

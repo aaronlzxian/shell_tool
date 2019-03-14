@@ -6,3 +6,5 @@ fix_some_error.sh
 temp.sh
 docker/
 docker/**
+private/
+private/**
